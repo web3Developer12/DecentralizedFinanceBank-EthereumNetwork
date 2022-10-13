@@ -1,8 +1,6 @@
 # OriBank
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
-
-Try running some of the following tasks:
+🏦 OriBank is a ✨ decentralized bank made with 🎖️React/Redux/hardhat/solidity. 🚀 The Dapp is connected with the 🌐 ethereum blockchain giving users the possibility to deposit💸 leth in their account and withdraw💸 their funds under no constraint 
 
 ```shell
 npx hardhat help
