@@ -6,9 +6,15 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "jquery": "^3.6.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-fast-marquee": "^1.3.5",
     "react-scripts": "5.0.1",
+    "react-scrollable-feed": "^1.3.1",
+    "react-toastify": "^9.0.8",
+    "react-typewriter-effect": "^1.1.0",
+    "typewriter-effect": "^2.19.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -34,5 +40,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "@reduxjs/toolkit": "^1.8.6",
+    "dotenv": "^16.0.3",
+    "ethers": "^5.7.1",
+    "gun": "^0.2020.1238",
+    "hardhat": "^2.11.2",
+    "react-redux": "^8.0.4",
+    "react-spinners-kit": "^1.9.1",
+    "redux": "^4.2.0",
+    "redux-thunk": "^2.4.1"
   }
 }

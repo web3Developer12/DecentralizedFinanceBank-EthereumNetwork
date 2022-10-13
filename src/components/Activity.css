@@ -1,0 +1,97 @@
+.Activity{
+    position:relative;
+    display:flex;
+    flex-direction:row;
+   
+    color:white;
+    overflow:hidden;
+    overflow-x:hidden;
+}
+
+.Activity::before,.Activity::after{
+    position:absolute;
+    top:0;
+    width:10rem;
+    content:"";
+    height:80px;
+    display:none;
+    z-index:1;
+}
+.Activity::before{
+    left:0;
+    background-image:linear-gradient(to right,#111 0%,transparent 100%);
+
+}
+.Activity::after{
+    right:0;
+    background-image:linear-gradient(to left,#111 0%,transparent 100%);
+
+
+}
+.ActivityCard{
+    flex-shrink:0;
+    padding:6px;
+    margin-inline:.8%;
+    background-color:#000000ec;
+
+    width:210px;
+    height:80px;
+    border-radius:7px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-between;
+    cursor: pointer;
+    animation:fadeIn 1s ease-in;
+
+
+}
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    }
+        @-webkit-keyframes fadeIn {
+        0% {opacity: 0;}
+        100% {opacity: 1;}
+        }
+        @keyframes fadeIn {
+        0% {opacity: 0;}
+        100% {opacity: 1;}
+        } 
+  
+@keyframes scrolling {
+    0%{transform:translateX(100%);}
+    0%{transform:translateX(-160%);}
+
+}
+
+.col{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    height:100%;
+}
+.tlt{
+  width:40%;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  padding-left:12px;
+
+
+}
+.r{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  width:50%;
+  padding-left:12px;
+}
+.col-card{
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+}

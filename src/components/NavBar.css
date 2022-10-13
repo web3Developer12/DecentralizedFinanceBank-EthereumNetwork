@@ -1,0 +1,98 @@
+.row{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-between;
+}
+.NavBar{
+    padding-inline:10%;
+    flex-shrink:0;
+    box-sizing: border-box;
+}
+.debug{
+    background-color:red;
+}
+
+/* CSS */
+.button-23 {
+  background-color:black;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  border: none;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0;
+  outline: none;
+  padding: 13px 23px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  touch-action: manipulation;
+  transition: box-shadow .2s,-ms-transform .1s,-webkit-transform .1s,transform .1s;
+  user-select: none;
+  -webkit-user-select: none;
+  width: auto;
+}
+
+.button-23:focus-visible {
+  box-shadow: #222222 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
+  transition: box-shadow .2s;
+}
+
+.button-23:active {
+  border-color: #000000;
+  transform: scale(.96);
+}
+
+.button-23:disabled {
+  border-color: #DDDDDD;
+  color: #DDDDDD;
+  cursor: not-allowed;
+  opacity: 1;
+}
+.addr-text-btn{
+    width: 56px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-overflow:ellipsis;
+}
+.w5{
+    width:5%;
+}
+.w10{
+    width:10%;
+}
+.w10{
+    width:10%;
+}
+.w12{
+    width:12%;
+}
+.w13{
+    width:13%;
+}
+.w14{
+    width:14%;
+}
+.w15{
+    width:15%;
+}
+.w17{
+    width:17%;
+}
+.w20{
+    width:20%;
+}
+.he5{
+    height:5%;
+}
+.he10{
+    height:10%;
+}
+.he15{
+    height:15%;
+}

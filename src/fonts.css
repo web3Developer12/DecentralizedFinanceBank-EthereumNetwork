@@ -1,0 +1,63 @@
+@font-face {
+    font-family:"Urbanist-Bold";
+    src: url("./assets/fonts/urbanist/static/Urbanist-Bold.ttf");
+}
+@font-face {
+    font-family:"Urbanist-Regular";
+    src: url("./assets/fonts/urbanist/static/Urbanist-Regular.ttf");
+}
+@font-face {
+    font-family:"Urbanist-Medium";
+    src: url("./assets/fonts/urbanist/static/Urbanist-Medium.ttf");
+}
+@font-face {
+    font-family:"Urbanist-ExtraBold";
+    src: url("./assets/fonts/urbanist/static/Urbanist-ExtraBold.ttf");
+}
+.extraBold{
+    font-family:"Urbanist-ExtraBold";
+
+}
+.medium{
+    font-family:"Urbanist-Medium";
+
+}
+.bold{
+    font-family:"Urbanist-Bold";
+}
+.regular{
+    font-family:"Urbanist-Regular";
+}
+.white{
+    color:white;
+}
+.f1{
+    font-size:1em;
+}
+.f1_8{
+    font-size:2.4vw;
+}
+.f2{
+    font-size:2em;
+}
+
+.f3{
+    font-size:3em;
+}
+.f4{
+    font-size:4em;
+}
+.purple{
+    color:rgb(153, 0, 255);
+}
+
+.mt{
+    margin-top:12px;
+}
+.mt2{
+    margin-top:8%;
+}
+
+.mi{
+    margin-inline:10%;
+}

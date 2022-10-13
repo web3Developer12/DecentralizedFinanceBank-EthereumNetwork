@@ -1,0 +1,55 @@
+@media only screen and (min-width:300px) and (max-width:480px){
+  .App{
+    height:100%;
+  }
+    .f1_8{
+      font-size:5vw;
+      margin-left:12px;
+    }
+
+
+    .header-text{
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      justify-content:center;
+      }
+
+    .header-text p{
+      text-align:center;
+    }
+    .interaction{
+      align-items:center;
+      justify-content:center;
+    }
+    .card{
+      margin-top:7%;
+      width:100%;
+      height:400px;
+    }
+    .row-input{
+      width:100%;
+    }
+    .row-mob{
+      flex-direction:column;
+      align-items:center;
+      justify-content:center;
+      width:100%;
+    }
+
+    input{
+      width:100%;
+      margin-bottom:12px;
+    }
+    .col{
+      width:100%;
+
+    }
+    .btn{
+      width:100%;
+      margin-left:0px;
+    }
+
+
+
+}
